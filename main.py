@@ -10,7 +10,7 @@ class MainWindow(ctk.CTk):
     def __init__(self):
         super().__init__()
         
-        #c Configure the main window
+        # Configure the main window
         
         self.title("onix 0.0")
         self.geometry("800x600")
@@ -67,7 +67,7 @@ class MainWindow(ctk.CTk):
 def main():
     """Main function to run the application"""
     app = MainWindow()
-    app.mainloop
+    app.mainloop()
     
 if __name__ == "__main__":
     main()
